@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="transferVideo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\fastcdr\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\fastcdr\cmake\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\fastrtps\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\fastrtps\cmake\;CMake Files\..\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\..\usr\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="transferVideo">
+				<Option output="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/transferVideo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 transferVideo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="transferVideo/fast">
+				<Option output="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/transferVideo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 transferVideo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/src/video.cxx">
+			<Option target="transferVideo"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/src/video.h">
+			<Option target="transferVideo"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/src/videoPubSubMain.cc">
+			<Option target="transferVideo"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/src/videoPubSubTypes.cxx">
+			<Option target="transferVideo"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/src/videoPubSubTypes.h">
+			<Option target="transferVideo"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/src/videoPublisher.cxx">
+			<Option target="transferVideo"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/src/videoPublisher.h">
+			<Option target="transferVideo"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/src/videoSubscriber.cxx">
+			<Option target="transferVideo"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/src/videoSubscriber.h">
+			<Option target="transferVideo"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/../../../../../../../usr/local/lib/fastcdr/cmake/fastcdrConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\fastcdr\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/../../../../../../../usr/local/lib/fastcdr/cmake/fastcdrConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\fastcdr\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/../../../../../../../usr/local/lib/fastcdr/cmake/fastcdrTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\fastcdr\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/../../../../../../../usr/local/lib/fastcdr/cmake/fastcdrTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\fastcdr\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/../../../../../../../usr/local/lib/fastrtps/cmake/fastrtpsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\fastrtps\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/../../../../../../../usr/local/lib/fastrtps/cmake/fastrtpsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\fastrtps\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/../../../../../../../usr/local/lib/fastrtps/cmake/fastrtpsTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\fastrtps\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/../../../../../../../usr/local/lib/fastrtps/cmake/fastrtpsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\fastrtps\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/../../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/../../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/../../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/../../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

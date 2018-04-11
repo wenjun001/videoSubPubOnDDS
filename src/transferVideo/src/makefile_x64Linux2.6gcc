@@ -1,0 +1,66 @@
+CPP= g++
+CPPFLAGS = -c -Wall -fpic -m64 -O2 -std=c++0x
+LN= g++
+AR=ar
+LDFLAGS= -m64
+SYSLIBS= -ldl -lnsl -lm -lpthread -lrt
+DEFINES= 
+
+INCLUDES= -I. 
+
+LIBS =  -lfastcdr -lfastrtps $(SYSLIBS)
+
+DIRECTORIES= output.dir output/x64Linux2.6gcc.dir lib.dir lib/x64Linux2.6gcc.dir bin.dir bin/x64Linux2.6gcc.dir
+
+all: $(DIRECTORIES) video videoPublisherSubscriber
+
+
+video_TARGET= lib/x64Linux2.6gcc/libvideo.so
+video_TARGET_Z= lib/x64Linux2.6gcc/libvideo.a
+
+video_CLIENT_EXAMPLE_TARGET= bin/x64Linux2.6gcc/videoPublisherSubscriber
+video_COMMON_SRC_CXXFILES = video.cxx
+
+video_COMMON_SRC_CPPFILES=
+
+video_CLIENTSOURCES = videoPubSubTypes.cxx \
+	videoPublisher.cxx \
+	videoSubscriber.cxx \
+	videoPubSubMain.cxx
+
+video_COMMONOBJS    = $(video_COMMON_SRC_CXXFILES:%.cxx=output/x64Linux2.6gcc/%.o) $(video_COMMON_SRC_CPPFILES:%.cpp=output/x64Linux2.6gcc/%.o)
+
+video_CLIENTOBJS    = $(video_CLIENTSOURCES:%.cxx=output/x64Linux2.6gcc/%.o)
+
+videoOBJS+= $(video_COMMONOBJS) $(video_CLIENTOBJS)
+OBJS+= $(videoOBJS)
+
+$(video_TARGET): $(video_COMMONOBJS)
+	$(LN) $(LDFLAGS) -shared -o $(video_TARGET) $(video_COMMONOBJS) $(LIBS) -Llib/x64Linux2.6gcc 
+
+$(video_TARGET_Z): $(video_COMMONOBJS)
+	$(AR) -cru $(video_TARGET_Z) $(video_COMMONOBJS)
+
+$(video_CLIENT_EXAMPLE_TARGET): $(videoOBJS) lib/x64Linux2.6gcc/libvideo.a 
+	$(LN) $(LDFLAGS) -o $@ $(videoOBJS) -Wl,-Bstatic -Llib/x64Linux2.6gcc -lvideo  -Wl,-Bdynamic $(LIBS)
+
+videoPublisherSubscriber : $(video_CLIENT_EXAMPLE_TARGET)
+video: $(video_TARGET) $(video_TARGET_Z) videoPublisherSubscriber
+
+output/x64Linux2.6gcc/%.o:%.cxx
+	$(CPP) $(CPPFLAGS) $(INCLUDES) $(DEFINES) -c $< -o $@
+
+output/x64Linux2.6gcc/%.o:%.cpp
+	$(CPP) $(CPPFLAGS) $(INCLUDES) $(DEFINES) -c $< -o $@
+
+.PHONY: video videoPublisherSubscriber
+
+clean:
+	@rm -f $(OBJS)
+
+%.dir : 
+	@echo "Checking directory $*"
+	@if [ ! -d $* ]; then \
+		echo "Making directory $*"; \
+		mkdir -p $* ; \
+	fi;

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>video_stream_opencv</name>
+  <name>video_stream_opencv_sub</name>
   <version>1.1.0</version>
 
   <description>

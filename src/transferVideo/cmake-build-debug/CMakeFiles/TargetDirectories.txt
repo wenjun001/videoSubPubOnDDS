@@ -1,0 +1,3 @@
+/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug/CMakeFiles/transferVideo.dir

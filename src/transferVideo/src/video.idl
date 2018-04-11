@@ -1,0 +1,4 @@
+struct Video
+{
+     char message[1000000];
+};

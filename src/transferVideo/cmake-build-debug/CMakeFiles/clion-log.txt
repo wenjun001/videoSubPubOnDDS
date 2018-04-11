@@ -1,0 +1,5 @@
+/home/wma/tool/clion-2018.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo
+-- Configuring transferVideo ...
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wma/catkin_ws/src/video_stream_opencv_sub/src/transferVideo/cmake-build-debug
